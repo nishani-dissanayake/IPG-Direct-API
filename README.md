@@ -97,7 +97,7 @@ Send a JSON object with below mandatory and optional fields.
 | `merchantKey` | Must match the merchant used in step 1. |
 | `checkValue` | Server-side digest (see **checkValue**). |
 | `invoiceId` | Merchant invoice / order id. |
-| `currencyCode` | `USD`, `GBP`, `EURO`, `LKR`, or `EUR`. |
+| `currencyCode` | `USD`, `GBP`, `LKR`, or `EUR`. |
 | `paymentType` | `1` for one-time. |
 | `amount` | String with two decimals, e.g. `"10.00"`. |
 | `orderDescription` | Short description. |
