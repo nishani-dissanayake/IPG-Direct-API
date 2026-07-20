@@ -16,6 +16,10 @@ You need credentials from PAYable:
 
 When the customer pays, they complete card entry on PAYable’s hosted pages. Your app never collects raw card data. After you create a session, send the customer to the **`paymentPage`** URL; when payment completes, PAYable can notify your backend at the URL you configure (**`notifyUrl`**).
 
+**Note:** When generating the Business Token from "Merchant Portal -> Settings -> Business Integration", ensure following three permissions are enabled. In case the token was generated without the necessary permissions, use the "Edit Permission" feature to update permissions.
+
+<img width="779" height="806" alt="image" src="https://github.com/user-attachments/assets/05a7804a-e2d4-4486-b40d-b2a2fd9d7296" />
+
 ---
 
 ## Environments and base URL
